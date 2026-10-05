@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Conceptprogramma D66 Provincie Utrecht</title>
+</head>
+<body>
+<p><a href="conceptprogramma.pdf">Open het conceptprogramma (PDF)</a></p>
+<script>
+const page=Number(location.hash.slice(1));
+location.replace('conceptprogramma.pdf'+(Number.isInteger(page)&&page>=1&&page<=31?'#page='+page:''));
+</script>
+</body>
+</html>
